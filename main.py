@@ -63,7 +63,7 @@ def circle_area(r1, r2, r3):
 
 
 def check_string(text):
-    if (text.startswith("a") or text.startswith("A")) or (text.endswith("a")) or text.endswith("A"):
+    if (text.startswith("a") or text.startswith("A")) or (text.endswith("a") or text.endswith("A")):
         print("Yippie! This text either starts or ends with A/a!")
         return True
     else:
